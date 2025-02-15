@@ -10,17 +10,10 @@ function Header() {
   return (
     <div className={Styles.headerOuterContainer}>
       <div className={Styles.headerContainer}>
-        <div
-          className={`navbar navbar-expand-sm navbar-expand-md ${Styles.headerLeft}`}
-        >
+        <div className={Styles.headerLeft}>
           <ul>
             <li>
-              <img
-                className={`navbar-toggler navbar-toggler-right`}
-                src={NetflixLogo}
-                alt="Netflix Logo"
-                width="100"
-              />
+              <img src={NetflixLogo} alt="Netflix Logo" width="100" />
             </li>
             <li>Home</li>
             <li>TVShows</li>
