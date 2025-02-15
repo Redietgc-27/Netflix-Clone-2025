@@ -42,3 +42,67 @@
   font-size: 12px;
   margin-bottom: 10px;
 }
+/* Tablet View (768px and below) */
+/* @media screen and (max-width: 768px) {
+  .banner {
+    height: 60vh;
+    margin-top: 8vh;
+  }
+
+  .bannerContents {
+    padding-top: 200px;
+    margin-left: 20px;
+  }
+
+  .bannerTitle {
+    font-size: 2.5rem;
+  }
+
+  .bannerDescription {
+    width: 80%;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .bannerButton {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    margin-right: 1rem;
+  }
+}
+
+/* Mobile View (480px and below) */
+/* @media screen and (max-width: 480px) {
+  .banner {
+    height: 50vh;
+    margin-top: 6vh;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .bannerContents {
+    padding-top: 150px;
+    margin-left: 10px;
+  }
+
+  .bannerTitle {
+    font-size: 2rem;
+  }
+
+  .bannerDescription {
+    width: 90%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    max-width: 280px;
+  }
+
+  .bannerButton {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .bannerFadeBottom {
+    height: 30vh;
+  }
+}  */
