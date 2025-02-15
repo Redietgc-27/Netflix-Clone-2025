@@ -1,12 +1,12 @@
 {
-  "homepage": "http://Redietgc-27.github.io/Netflix-Clone-2025",
+  "homepage": "http://Redietgc-27.github.io/Netflix-Clone-2025/",
   "name": "netflix-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "npm run dist",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
