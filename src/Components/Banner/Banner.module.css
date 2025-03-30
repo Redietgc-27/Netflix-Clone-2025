@@ -57,16 +57,10 @@
   );
 }
 
-/* Tablet View (768px and below) */
-/* @media screen and (max-width: 768px) {
-  .banner {
-    height: 60vh;
-    margin-top: 8vh;
-  }
-
+@media (max-width: 1200px) {
   .bannerContents {
+    margin-left: 15px;
     padding-top: 200px;
-    margin-left: 20px;
   }
 
   .bannerTitle {
@@ -74,30 +68,26 @@
   }
 
   .bannerDescription {
-    width: 80%;
-    font-size: 0.9rem;
-    line-height: 1.4;
+    width: 35rem;
+    font-size: 0.95rem;
   }
 
   .bannerButton {
-    font-size: 1rem;
-    padding: 0.8rem 2rem;
-    margin-right: 1rem;
+    font-size: 1.1rem;
+    padding: 0.8rem 2.5rem;
+    margin-right: 1.5rem;
   }
 }
 
-/* Mobile View (480px and below) */
-/* @media screen and (max-width: 480px) {
+@media (max-width: 768px) {
   .banner {
-    height: 50vh;
-    margin-top: 6vh;
-    text-align: center;
-    justify-content: center;
+    height: 60vh;
+    margin-bottom: 20px;
   }
 
   .bannerContents {
+    margin-left: 20px;
     padding-top: 150px;
-    margin-left: 10px;
   }
 
   .bannerTitle {
@@ -105,10 +95,38 @@
   }
 
   .bannerDescription {
-    width: 90%;
-    font-size: 0.8rem;
-    line-height: 1.4;
-    max-width: 280px;
+    width: 100%;
+    font-size: 0.9rem;
+    height: auto;
+  }
+
+  .bannerButton {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    margin-right: 1rem;
+  }
+
+  .bannerFadeBottom {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .bannerContents {
+    padding-top: 100px;
+  }
+
+  .bannerTitle {
+    font-size: 1.8rem;
+  }
+
+  .bannerDescription {
+    width: 100%;
+    font-size: 0.85rem;
   }
 
   .bannerButton {
@@ -118,6 +136,6 @@
   }
 
   .bannerFadeBottom {
-    height: 30vh;
+    height: 25vh;
   }
-}  */
+}
